@@ -21,11 +21,27 @@ img{
 .col{
     width: calc(100%/3 - (40px/3));
     /* debug */
-    /* height:  300px;
-    border: solid rebeccapurple; */
+    
 }
 .flex{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+}
+/* ------------------------------------------- */
+
+/* typography */
+.heart{
+    padding: 5px 10px;
+    background-color: aquamarine;
+}
+.discount{
+    background-color: red;
+    color: white;
+    padding: 5px;
+}
+.eco{
+    background-color: green;
+    color: white;
+    padding: 5px;
 }
