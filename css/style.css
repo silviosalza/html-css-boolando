@@ -4,3 +4,28 @@
     margin: 0;
     box-sizing: border-box;
 }
+img{
+    max-width: 100%;
+}
+
+/* layout */
+.container{
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* debug */
+    border: solid black;
+    margin-top: 5rem;
+
+}
+.col{
+    width: calc(100%/3 - (40px/3));
+    /* debug */
+    /* height:  300px;
+    border: solid rebeccapurple; */
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
