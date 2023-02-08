@@ -13,7 +13,12 @@ body{
 
 
 /* header layout */
+header{
+    position: relative;
+}
 .header-cont{
+    position:fixed;
+    z-index: 10;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -26,16 +31,19 @@ body{
 
 header img{
     max-width: 15%;
+    filter: contrast(100);
 
 }
 
 /* main layout */
+main{
+    padding-top: 200px;
+}
 .container{
     width: 80%;
     max-width: 1200px;
     margin: 0 auto;
-    /* debug */
-    border: solid black;
+  
 
 }
 .col{
@@ -51,6 +59,7 @@ header img{
 /* footer layout */
 .footer-cont{
     height: 80px;
+    margin-top: 2rem;
     padding: 0 3rem;
     max-width: 100%;
     background-color: #1A1A1A;
