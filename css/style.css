@@ -12,19 +12,35 @@ body{
 }
 
 
-/* layout */
+/* header layout */
+.header-cont{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    margin-bottom: 5rem;
+    background-color: #FF6900;
+    color: white;
+}
+
+header img{
+    max-width: 20%;
+    
+}
+
+/* main layout */
 .container{
     width: 80%;
     max-width: 1200px;
     margin: 0 auto;
     /* debug */
     border: solid black;
-    margin-top: 5rem;
 
 }
 .col{
     width: calc(100%/3 - (40px/3));
-    /* debug */
+    
     
 }
 .flex{
@@ -35,6 +51,13 @@ body{
 /* ------------------------------------------- */
 
 /* typography */
+.header-cont a{
+    color: inherit;
+    text-decoration: none;
+    padding: 0 1rem 0 0 ;
+    font-weight: 700;
+}
+
 .heart{
     padding: 5px 10px;
     background-color: white;
